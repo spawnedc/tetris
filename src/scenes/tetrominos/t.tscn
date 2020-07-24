@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tilesets/tiles.tres" type="TileSet" id=1]
+[ext_resource path="res://scenes/tetrominos/Tetromino.gd" type="Script" id=2]
+
+[node name="t" type="Node2D"]
+script = ExtResource( 2 )
+block_position = Vector2( 0, 0 )
+block_rotation = 0
+
+[node name="pos-3" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 65536, 10, 0, 65537, 10, 0, 65538, 10, 0, 131073, 10, 0 )
+
+[node name="pos-4" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 1, 10, 0, 65536, 10, 0, 65537, 10, 0, 131073, 10, 0 )
+
+[node name="pos-1" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 1, 10, 0, 65536, 10, 0, 65537, 10, 0, 65538, 10, 0 )
+
+[node name="pos-2" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 1, 10, 0, 65537, 10, 0, 65538, 10, 0, 131073, 10, 0 )

@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/font/Teletool-32.tres" type="DynamicFont" id=1]
+[ext_resource path="res://assets/font/Teletool-64.tres" type="DynamicFont" id=2]
+[ext_resource path="res://scenes/Title/Title.gd" type="Script" id=3]
+
+[node name="TitleScreen" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+alignment = 1
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameTitle" type="Label" parent="."]
+margin_top = 289.0
+margin_right = 1024.0
+margin_bottom = 369.0
+custom_fonts/font = ExtResource( 2 )
+text = "Tetris"
+align = 1
+
+[node name="StartPrompt" type="Label" parent="."]
+margin_top = 373.0
+margin_right = 1024.0
+margin_bottom = 414.0
+custom_fonts/font = ExtResource( 1 )
+text = "Press enter to start"
+align = 1

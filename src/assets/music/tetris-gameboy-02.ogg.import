@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tetris-gameboy-02.ogg-98c069e2609e2e0b8d1888344bebfb0e.oggstr"
+
+[deps]
+
+source_file="res://assets/music/tetris-gameboy-02.ogg"
+dest_files=[ "res://.import/tetris-gameboy-02.ogg-98c069e2609e2e0b8d1888344bebfb0e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
